@@ -27,9 +27,4 @@ class Database {
         return $result;
     }
 
-    public static function getSelect() {
-        $sql = 'SELECT * FROM user';
-
-        return $sql;
-    }
 }

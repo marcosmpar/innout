@@ -35,7 +35,6 @@ class Model {
             }
         }
         return $objects;
-
     }
 
     public static function getResultSetFromSelect($filters = [], $columns = '*') {
